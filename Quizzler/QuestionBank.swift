@@ -12,35 +12,32 @@ class QuestionBank {
     var list = [Question]()
     init() {
         // Creating a quiz item and appending it to the list
-        let item = Question(text: "Valentine\'s day is banned in Saudi Arabia.", correctAnswer: true)
+        let item = Question(text: "여보는 나만 좋아한다..", correctAnswer: true)
         
         // Add the Question to the list of questions
         list.append(item)
         
         // skipping one step and just creating the quiz item inside the append function
-        list.append(Question(text: "A slug\'s blood is green.", correctAnswer: true))
+        list.append(Question(text: "여보는.. 오늘 내 생각을 했다..", correctAnswer: true))
         
-        list.append(Question(text: "Approximately one quarter of human bones are in the feet.", correctAnswer: true))
+        list.append(Question(text: "여보는.. 꿈에서 내 꿈을 꿧다...", correctAnswer: true))
         
-        list.append(Question(text: "The total surface area of two human lungs is approximately 70 square metres.", correctAnswer: true))
+        list.append(Question(text: "여보는 오늘 나한테 사랑한다고 7번 이상 말했다..", correctAnswer: true))
         
-        list.append(Question(text: "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", correctAnswer: true))
+        list.append(Question(text: "여보는... 세젤예이다..", correctAnswer: true))
         
-        list.append(Question(text: "In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.", correctAnswer: false))
+        list.append(Question(text: "여보보다.. 두부가 더 기엽다..", correctAnswer: false))
         
-        list.append(Question(text: "It is illegal to pee in the Ocean in Portugal.", correctAnswer: true))
+        list.append(Question(text: "여보가 젤 기엽다..", correctAnswer: true))
         
-        list.append(Question(text: "You can lead a cow down stairs but not up stairs.", correctAnswer: false))
+        list.append(Question(text: "융융..", correctAnswer: true))
         
-        list.append(Question(text: "Google was originally called \"Backrub\".", correctAnswer: true))
+        list.append(Question(text: "여보는 모닝콜을 평생 받았음 좋겠다고 생각한다..", correctAnswer: true))
         
-        list.append(Question(text: "Buzz Aldrin\'s mother\'s maiden name was \"Moon\".", correctAnswer: true))
-        
-        list.append(Question(text: "The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.", correctAnswer: false))
-        
-        list.append(Question(text: "No piece of square dry paper can be folded in half more than 7 times.", correctAnswer: false))
-        
-        list.append(Question(text: "Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.", correctAnswer: true))
+        list.append(Question(text: "❤️", correctAnswer: true))
+        list.append(Question(text: "융융이는 지금 배가 고프다.. ㅠ _ㅜ", correctAnswer: true))
+        list.append(Question(text: "융융이는 집에 언능 가고싶다..", correctAnswer: true))
+        list.append(Question(text: "융융이는.. 말랑이보다 내가 더 좋다.", correctAnswer: true))
     }
          
 }
